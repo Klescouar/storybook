@@ -1,0 +1,33 @@
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+
+  &__Icon {
+    font-size: 17px;
+    color: #31344b;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0.7;
+    top: 15px;
+    left: 15px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 16px;
+
+    &:hover {
+      border-radius: 50%;
+      background: #ecf0f3;
+      box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+    }
+
+    &:last-child {
+      left: unset;
+      right: 15px;
+    }
+  }
+}

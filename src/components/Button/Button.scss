@@ -1,0 +1,24 @@
+.Button {
+  position: relative;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 12px 0;
+  color: #31344b;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 4;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  margin: 10px;
+
+  &:hover {
+    box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+  }
+
+  &--small {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

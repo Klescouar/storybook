@@ -1,0 +1,29 @@
+.Share {
+  color: #31344b;
+  font-size: 17px;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  border-left: 2px solid #bdc6cc;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
+
+  &:first-child {
+    border-left: none;
+  }
+
+  &__Label {
+    margin-left: 5px;
+  }
+}
+
+.Share__Active {
+  svg {
+    color: red;
+  }
+}

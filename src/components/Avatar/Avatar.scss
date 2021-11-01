@@ -1,0 +1,28 @@
+.Avatar {
+  background: #ecf0f3;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    height: 120px;
+    width: 120px;
+  }
+
+  &__Content {
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    border-radius: 50%;
+
+    img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+}

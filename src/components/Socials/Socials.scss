@@ -1,0 +1,22 @@
+.Socials {
+  margin: 15px 0 25px 0;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    margin: 10px 0 15px 0;
+  }
+}
+
+.youtube svg {
+  color: #ff0000;
+}
+.facebook svg {
+  color: #4267b2;
+}
+.twitter svg {
+  color: #1da1f2;
+}
+.instagram svg {
+  color: #e1306c;
+}

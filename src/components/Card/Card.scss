@@ -1,0 +1,39 @@
+.Card {
+  position: relative;
+  width: 350px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #ecf0f3;
+  box-shadow: -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+
+  @media (max-width: 768px) {
+    width: 80%;
+    padding: 20px;
+  }
+
+  &__Name {
+    font-size: 23px;
+    font-weight: 500;
+    color: #31344b;
+    margin: 10px 0 0 0;
+
+    @media (max-width: 768px) {
+      font-size: 20px;
+    }
+  }
+
+  &__About {
+    color: #44476a;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+    @media (max-width: 768px) {
+      font-size: 12px;
+    }
+  }
+}
